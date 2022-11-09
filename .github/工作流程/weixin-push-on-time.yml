@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on:ubuntu-latest
 
     strategy:
       matrix:
@@ -33,7 +33,7 @@ jobs:
     - run: npm ci
     - run: npm run dev --if-present
     env: 
-      APP_ID: ${{secrets.APP_ID}}
-      APP_SECRET: ${{secrets.APP_SECRET}}
-      USER_INFO: ${{secrets.USER_INFO}}
+      APP_ID: ${{wxd796cef8b10089a1.APP_ID}}
+      APP_SECRET: ${{149463125eb531327b8302173f2c9890.APP_SECRET}}
+      USER_INFO: ${{ofxLq5yTIb9MTS1q8eNg4d6F4LlM.USER_INFO}}
 
